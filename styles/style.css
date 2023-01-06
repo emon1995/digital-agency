@@ -83,6 +83,7 @@
   background-blend-mode: overlay;
   color: #fff;
   padding: 20px;
+  /* z-index: 1; */
 }
 
 .service-left-container {
@@ -155,4 +156,31 @@
 .service-logo {
   width: 50%;
   padding-bottom: 10px;
+}
+
+/* Appointment section */
+.appointment-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  background-color: rgb(235, 90, 90);
+  padding: 30px;
+  color: white;
+  margin: auto;
+  border-radius: 25px;
+  /* z-index: 2; */
+  margin-top: -80px;
+}
+.phone-call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-icons {
+  width: 90px;
+}
+
+.make-title {
+  width: 75%;
 }
