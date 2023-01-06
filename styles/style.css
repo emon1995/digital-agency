@@ -71,3 +71,88 @@
 .btn-hire {
   color: rgb(235, 90, 90);
 }
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  color: #fff;
+  padding: 20px;
+}
+
+.service-left-container {
+  width: 50%;
+}
+
+.btn-service {
+  color: gray;
+  border-radius: 25px;
+}
+
+.service-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.service-subtitle {
+  font-size: 20px;
+  width: 50%;
+  padding: 10px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  height: 80px;
+  border-right: 2px solid rgb(226, 72, 72);
+}
+
+.author-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.details-btn {
+  padding: 20px;
+}
+
+.s-items {
+  margin: 20px;
+}
+
+.service-items {
+  display: flex;
+  gap: 20px;
+}
+
+.service-item {
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px gray;
+  width: 350px;
+  height: 300px;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.service-logo {
+  width: 50%;
+  padding-bottom: 10px;
+}
